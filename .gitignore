@@ -31,4 +31,6 @@
 *.out
 *.app
 
+#User Added
 *.dSYM
+hello_world
