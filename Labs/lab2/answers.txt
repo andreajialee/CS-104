@@ -1,1 +1,12 @@
 Answers go here!
+
+1. Changed invaders[invaderRow][invaderRow] = new Warrior(); into invaders[invaderRow][invaderCol] = new Warrior();
+
+2. Deleted the extra semicolon after the first if statement
+
+3. Warrior **firstOpenInvaderPos = findOpenInvaderPos(invaders, rows, columns);
+
+4. Changed DeallocateWarriors(invaders, n, m) into DeallocateWarriors(invaders, m, n)
+
+5. Changed if (invader->power < protector->power) into if (invader->power > protector->power)
+    Changed else if (protector->power < invader->power) into else if (protector->power > invader->power)
