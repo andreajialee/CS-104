@@ -4,7 +4,7 @@ Answers go here!
 
 2. Deleted the extra semicolon after the first if statement
 
-3. Warrior **firstOpenInvaderPos = findOpenInvaderPos(invaders, rows, columns);
+3. Added ++coldIdx to add an incrementor for (int colIdx = 0; colIdx < numCols; ++colIdx)
 
 4. Changed DeallocateWarriors(invaders, n, m) into DeallocateWarriors(invaders, m, n)
 
